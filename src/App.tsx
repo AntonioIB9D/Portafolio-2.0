@@ -25,9 +25,9 @@ function App() {
           <Lottie animationData={animationData} className="image-content" />
         </div>
         <div className="buttons">
-          <Button title="Portafolio" route="/Projects" />
-          <Button title="Tecnologías" route="/Tecnologies" />
-          <Button title="Acerca" route="/About" />
+          <Button title="Portafolio" route="/Projects" fontColor="Blue" />
+          <Button title="Tecnologías" route="/Tecnologies" fontColor="Yellow" />
+          <Button title="Acerca" route="/About" fontColor="Green" />
         </div>
       </div>
     </>

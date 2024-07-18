@@ -5,8 +5,7 @@
   font-size: 17px;
   font-weight: 1000;
   color: #ffffff;
-  border: 3px solid #4c83fa;
-  border-radius: 8px;
+  border-radius: 0.5rem;
   box-shadow: 0 0 0 #ffffff;
   transition: all 0.3s ease-in-out;
   cursor: pointer;
@@ -84,9 +83,7 @@
   transition: all 0.8s ease;
 }
 
-button:hover {
-  background: transparent;
-  color: #4c83fa;
+.button-hover {
   box-shadow: 0 0 0px #4c83fa;
 }
 
@@ -151,5 +148,5 @@ button:hover .star-6 {
 }
 
 .fil0 {
-  fill: #4c83fa;
+  fill: orange;
 }
