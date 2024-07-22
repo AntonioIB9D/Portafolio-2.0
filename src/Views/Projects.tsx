@@ -1,3 +1,5 @@
+import Card from '../Component/Card';
+
 export default function Projects() {
-  return <div>Projects</div>;
+  return <Card />;
 }
