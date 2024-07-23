@@ -1,5 +1,4 @@
 import ButtonEffect from './ButtonEffect';
-import ButtonLine from './ButtonLine';
 
 type cardDataProps = {
   imageP: string;
