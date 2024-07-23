@@ -7,7 +7,7 @@ export default function Projects() {
       {projectData.map((data) => (
         <Card
           key={data.Name}
-          image={data.image}
+          imageP={data.imageP}
           Tecnologies={data.Tecnologies}
           Name={data.Name}
           Description={data.Description}
