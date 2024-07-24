@@ -9,7 +9,7 @@ type projectDataProps = {
 
 export const projectData: projectDataProps[] = [
   {
-    imageP: '../../public/ArquitecturaBosque.png',
+    imageP: '/ArquitecturaBosque.png',
     Tecnologies: 'HTML + CSS',
     Name: 'Arquitectura Bosque',
     Description:
@@ -17,7 +17,7 @@ export const projectData: projectDataProps[] = [
     Url: 'https://arquitectura-bosque-page.vercel.app/',
   },
   {
-    imageP: '../../public/TechPro.png',
+    imageP: '/TechPro.png',
     Tecnologies: 'HTML + CSS',
     Name: 'TechPro',
     Description:
@@ -25,7 +25,7 @@ export const projectData: projectDataProps[] = [
     Url: 'https://tech-pro-page.vercel.app/',
   },
   {
-    imageP: '../../public/Delivery.png',
+    imageP: '/Delivery.png',
     Tecnologies: 'HTML + CSS',
     Name: 'Delivery Food',
     Description:
@@ -33,7 +33,7 @@ export const projectData: projectDataProps[] = [
     Url: 'https://delivery-page.vercel.app/',
   },
   {
-    imageP: '../../public/Podcast.png',
+    imageP: '/Podcast.png',
     Tecnologies: 'HTML + CSS',
     Name: 'Podcast FM',
     Description:
@@ -41,14 +41,14 @@ export const projectData: projectDataProps[] = [
     Url: 'https://podcast-page-two.vercel.app/',
   },
   {
-    imageP: '../../public/Airbnb.png',
+    imageP: '/Airbnb.png',
     Tecnologies: 'HTML + CSS',
     Name: 'Airbnb',
     Description: 'Búsqueda de viajes a diferentes lugares turísticos del mundo',
     Url: 'https://air-travel-page.vercel.app/',
   },
   {
-    imageP: '../../public/Cafetería.png',
+    imageP: '/Cafetería.png',
     Tecnologies: 'HTML + CSS',
     Name: 'Cafetería',
     Description:
@@ -56,7 +56,7 @@ export const projectData: projectDataProps[] = [
     Url: 'https://cafeteria-page-two.vercel.app/',
   },
   {
-    imageP: '../../public/AdministradorP.png',
+    imageP: '/AdministradorP.png',
     Tecnologies: 'React JS + Tailwind Css',
     Name: 'Administrador de clientes',
     Description:
@@ -66,7 +66,7 @@ export const projectData: projectDataProps[] = [
       'Esta aplicación podría no mostrar la información registrada debido a la consulta local de la información ',
   },
   {
-    imageP: '../../public/Drinks.png',
+    imageP: '/Drinks.png',
     Tecnologies: 'React TS + Tailwind Css + Axios',
     Name: 'Buscador de bebidas',
     Description:
@@ -76,7 +76,7 @@ export const projectData: projectDataProps[] = [
       'Esta aplicación podría no funcionar correctamente debido a la consulta externa de una API ',
   },
   {
-    imageP: '../../public/Clima.png',
+    imageP: '/Clima.png',
     Tecnologies: 'React JS + Tailwind Css + Axios',
     Name: 'Pronostico del clima',
     Description: 'Consulta del clima en tiempo real dependiendo de cada ciudad',
@@ -85,35 +85,35 @@ export const projectData: projectDataProps[] = [
       'Esta aplicación podría no funcionar correctamente debido a la consulta externa de una API ',
   },
   {
-    imageP: '../../public/Propinas.png',
+    imageP: '/Propinas.png',
     Tecnologies: 'React TS + Tailwind Css',
     Name: 'Calculadora de propinas',
     Description: 'Calcula las propinas de una lista de alimentos consumidos',
     Url: 'https://weather-app-lake-alpha.vercel.app/',
   },
   {
-    imageP: '../../public/Calorías.png',
+    imageP: '/Calorías.png',
     Tecnologies: 'React TS + Tailwind Css + LocalStorage',
     Name: 'Contador de calorías',
     Description: 'Genera el balance de calorías consumidas y quemadas',
     Url: 'https://calories-tracker-wheat.vercel.app/',
   },
   {
-    imageP: '../../public/Veterinaria.png',
+    imageP: '/Veterinaria.png',
     Tecnologies: 'React TS + Tailwind Css + Zustand ',
     Name: 'Administrador de veterinaria',
     Description: 'Seguimiento de pacientes de una veterinaria',
     Url: 'https://patient-administrator-tau.vercel.app/',
   },
   {
-    imageP: '../../public/Crypto.png',
+    imageP: '/Crypto.png',
     Tecnologies: 'React TS + Tailwind Css + Zustand + Axios ',
     Name: 'Cotizador de criptomonedas',
     Description: 'Cotización de criptomonedas en tiempo real',
     Url: 'https://cripto-viewer.vercel.app/',
   },
   {
-    imageP: '../../public/Guitarra.png',
+    imageP: '/Guitarra.png',
     Tecnologies: 'React TS + Css ',
     Name: 'Tienda de guitarras',
     Description: 'Venta de guitarras',
