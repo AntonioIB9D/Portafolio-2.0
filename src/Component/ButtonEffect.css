@@ -3,41 +3,44 @@
   font-weight: 700;
   font-size: 16px;
   text-decoration: none;
-  padding: 0.9em 1.6em;
+  padding: 0.5rem;
   cursor: pointer;
   display: inline-block;
   vertical-align: middle;
   position: relative;
   z-index: 1;
+  overflow: hidden; /* Ensure the blobs are contained within the button */
+  line-height: 1; /* Ensure no extra space inside the button */
+  border-radius: 9999px; /* Maintain the rounded shape */
 }
 
 .c-button--gooey {
-  color: #06c8d9;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  border: 4px solid #06c8d9;
-  border-radius: 0;
+  color: #235580;
+  border: 3px solid #235580;
+  border-radius: 9999px; /* Maintain the rounded shape */
   position: relative;
   transition: all 700ms ease;
+  padding: 0; /* Remove default padding */
 }
 
 .c-button--gooey .c-button__blobs {
   height: 100%;
+  width: 100%;
   filter: url(#goo);
   overflow: hidden;
   position: absolute;
   top: 0;
   left: 0;
-  bottom: -3px;
-  right: -1px;
+  right: 0;
+  bottom: 0; /* Ensure the blobs cover the entire button area */
   z-index: -1;
 }
 
 .c-button--gooey .c-button__blobs div {
-  background-color: #06c8d9;
+  background-color: #235580;
   width: 34%;
-  height: 100%;
-  border-radius: 100%;
+  height: 100%; /* Adjust height to cover the full area */
+  border-radius: 50%; /* Change from 100% to 50% */
   position: absolute;
   transform: scale(1.4) translateY(125%) translateZ(0);
   transition: all 700ms ease;

@@ -1,10 +1,17 @@
 import './ButtonEffect.css';
-export default function ButtonEffect() {
+
+type ButtonEffectProps = {
+  route: string;
+};
+
+export default function ButtonEffect({ route }: ButtonEffectProps) {
   return (
-    <div>
-      <button className="c-button c-button--gooey">
-        {' '}
-        Hover me
+    <>
+      <button
+        className="c-button c-button--gooey w-28 h-12 rounded-full"
+        onClick={() => window.open(route, '_blank')}
+      >
+        Visitar
         <div className="c-button__blobs">
           <div></div>
           <div></div>
@@ -33,6 +40,6 @@ export default function ButtonEffect() {
           </filter>
         </defs>
       </svg>
-    </div>
+    </>
   );
 }

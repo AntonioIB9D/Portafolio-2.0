@@ -32,9 +32,8 @@ export default function Card({
           {Name}
         </span>
         <p className="text-neutral-800">{Description}</p>
-        <p className="text-neutral-800">{Url}</p>
-        <div className="flex justify-center">
-          <ButtonEffect />
+        <div className="flex justify-center m-4">
+          <ButtonEffect route={Url} />
         </div>
       </div>
     </div>
