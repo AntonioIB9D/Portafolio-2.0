@@ -116,7 +116,8 @@ export const projectData: projectDataProps[] = [
     imageP: '/Guitarra.png',
     Tecnologies: 'React TS + Css ',
     Name: 'Tienda de guitarras',
-    Description: 'Venta de guitarras',
+    Description:
+      'Elige entre una gran variedad de guitarras dependiendo de tus gustos',
     Url: 'https://guitar-store-sigma.vercel.app/',
   },
 ];

@@ -31,7 +31,7 @@ export default function Card({
         <span className="text-gray-800 font-bold text-3xl text-pretty">
           {Name}
         </span>
-        <p className="text-neutral-800">{Description}</p>
+        <p className="text-neutral-800 text-pretty">{Description}</p>
         <div className="flex justify-center m-4">
           <ButtonEffect route={Url} />
         </div>
