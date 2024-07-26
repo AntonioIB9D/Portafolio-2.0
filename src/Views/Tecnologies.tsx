@@ -19,10 +19,11 @@ export default function Tecnologies() {
             name={data.name}
             description={data.description}
             documentationUrl={data.documentationUrl}
+            fontColor={data.fontColor}
           />
         ))}
       </div>
-      <div className="flex justify-center mt-4">
+      <div className="flex justify-center mt-2 mb-2">
         <Button title="Volver" route="/" fontColor="Yellow" />
       </div>
     </div>

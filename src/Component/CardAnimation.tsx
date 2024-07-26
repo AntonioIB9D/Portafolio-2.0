@@ -5,6 +5,7 @@ type cardAnimationProps = {
   name: string;
   description: string;
   documentationUrl: string;
+  fontColor: string;
 };
 
 export default function CardAnimation({
@@ -12,15 +13,28 @@ export default function CardAnimation({
   name,
   description,
   documentationUrl,
+  fontColor,
 }: cardAnimationProps) {
   return (
     <div className="parent">
       <div className="card">
         <div className="content-box">
-          <span className="card-title">{name}</span>
+          <span
+            className={
+              fontColor === 'Blue'
+                ? 'card-title  text-blue-500'
+                : fontColor === 'Yellow'
+                ? 'card-title  text-yellow-500'
+                : fontColor === 'Green'
+                ? 'card-title  text-green-500'
+                : 'card-title'
+            }
+          >
+            {name}
+          </span>
           <p className="card-content">{description}</p>
           <span
-            className="see-more"
+            className="see-more rounded-full"
             onClick={() => window.open(documentationUrl, '_blank')}
           >
             Documentación
